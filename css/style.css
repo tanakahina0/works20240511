@@ -1,0 +1,75 @@
+body {
+    font-family: 'メイリオ', Meiryo,'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius:  10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1,h4 {
+    text-align: center;
+    color: #7EC2C2;
+}
+h4 {
+    margin-top: -1.3rem;
+    font-family: 'Segoe UI Black','Skia-Regular_Black','Futura',sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #7EC2C2;
+    font-weight: bold;
+    border-bottom: 1.2px solid;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="url"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #443E37;
+}
+.message {
+    color: rgb(227, 113, 157);
+    margin-bottom: 20px;
+}
+#bookmark-list {
+    list-style: none;
+    padding: 0;
+    color: #443E37;
+}
+#bookmark-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    word-break: break-word;
+}
+.bookmark-text {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.delete-btn {
+    background-color: #7EC2C2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.delete-btn:hover {
+    background-color: #5ba6a6;
+}
